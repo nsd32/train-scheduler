@@ -1,0 +1,23 @@
+.jumbotron {
+	text-align: center;
+	background-color: #ffff00;
+	color: #302013;
+}
+
+.card-header {
+	background-color: #302013;
+	color: #fff;
+}
+
+.table th{ 
+     border-top: none !important; 
+ }
+
+ #add-train {
+ 	margin-top: 20pt;
+ }
+
+ .btn {
+ 	background-color: #302013;
+ 	color: #fff;
+ }
