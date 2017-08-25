@@ -15,13 +15,6 @@ $(document).ready(function() {
   console.log(database);
 
   var ref = database.ref('trains');
-
-  // var trainName = $('#train-name').val();
-  // var destination = $('#destination').val();
-  // var trainTime = $('#train-time').val();
-  // var frequency = $('#frequency').val();
-
- 
  
   ref.on('value', gotData, errorData);
 
@@ -51,8 +44,6 @@ $(document).ready(function() {
   	
   }
 
-
-
   function errorData(err) {
   	console.log('Error!');
   	console.log(err);
@@ -78,9 +69,5 @@ $(document).ready(function() {
     console.log(train);
 
   });
-
-  
-
-
 
 });

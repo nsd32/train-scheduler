@@ -1,7 +1,8 @@
 .jumbotron {
 	text-align: center;
-	background-color: #ffff00;
+	background-color: #ffa500;
 	color: #302013;
+	font-family: helvetica;
 }
 
 .card-header {
